@@ -1,0 +1,6 @@
+principios SOLID incumplidos:
+
+
+
+
+la clase file manager hace mas de una función incumpliendo los principios de responsabilidad única y segregación de interfaces

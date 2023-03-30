@@ -21,7 +21,9 @@ public class FileManager {
 
         return totalSize;
     }
+}
 
+public class FileManager2 {
     public static int calculateSize(List<FileSystemItem> files) {
         int totalSize = 0;
 
@@ -35,7 +37,9 @@ public class FileManager {
 
         return totalSize;
     }
-
+}
     // Aquí habría otros métodos para gestionar ficheros y directorios:
     // Crear ficheros, mover ficheros, eliminar ficheros, etc.
-}
+    
+    //la clase file manager hace mas de una función incumpliendo los principios de responsabilidad única y segregación de interfaces
+
